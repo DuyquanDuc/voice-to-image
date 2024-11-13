@@ -3,7 +3,7 @@ import base64
 from openai import OpenAI
 
 #Set up the API key
-client = OpenAI(api_key="sk-KFoX7aw6fjiUhYShNCXSKEinrDEGIH6Qw8fc4GP8j8T3BlbkFJJ-ojYvV-urmYAH9QtaSXEwaxNxeOlhTQltgMuEED4A")
+client = OpenAI(api_key="")
 
 #Function for processing the image
 def response(image_path, prompt):
